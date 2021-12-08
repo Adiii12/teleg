@@ -619,9 +619,8 @@ body::-webkit-scrollbar {
   background-size: 100%;
   transition: background 0s;
 }
-@media only screen and (max-width: 68) {
+@media only screen and (max-width: 768px) {
   .login_signup {
-    width: 90%;
-    margin: auto;
+    width: 100%;
   }
 }
