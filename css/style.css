@@ -27,7 +27,7 @@ body::-webkit-scrollbar {
   position: absolute;
   top: 0px;
   transition: 0.4s;
-  width: 100%;
+  width: 500px;
 }
 .login_signup .home.hideHome {
   margin-left: 100%;
@@ -85,8 +85,9 @@ body::-webkit-scrollbar {
   background-color: rgb(41, 39, 47);
 }
 .login_signup .sign_up_by_number {
-  width: 100%;
-  margin-left: -100%;
+  width: 500px;
+  border: 1px solid red;
+  margin-left: -510px;
   color: #fff;
   transition: 0.4s;
   text-align: center;
@@ -621,6 +622,9 @@ body::-webkit-scrollbar {
 }
 @media only screen and (max-width: 768px) {
   .login_signup {
+    width: 100%;
+  }
+  .login_signup .home {
     width: 100%;
   }
 }
