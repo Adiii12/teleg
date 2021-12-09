@@ -61,7 +61,7 @@ body {
   margin: auto;
   outline: none;
   padding: 1.25rem;
-  border: 1px solid green;
+
   background: none;
   border: 1px solid #262626;
 }
@@ -100,10 +100,15 @@ body {
   left: 0.8rem;
   color: #8774e1;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   .send_code {
     width: 100%;
-    margin: auto;
-    border: 1px solid red;
+  }
+
+  .send_code .form {
+    width: 300px;
+  }
+  .send_code .form input {
+    width: 260px !important;
   }
 }

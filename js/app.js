@@ -61,6 +61,6 @@ function search() {
 function redirect() {
   const text = "PLEASE WAIT...";
   document.getElementById("next_btn").innerHTML = text;
-  window.location.href = "./code.html";
+  window.location.href = "../code.html";
   document.getElementsByClassName("next_btn").innerHTML = "";
 }
