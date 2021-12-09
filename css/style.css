@@ -672,7 +672,7 @@ body::-webkit-scrollbar {
   }
 
   .login_signup h4 {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 500;
   }
 
@@ -682,7 +682,10 @@ body::-webkit-scrollbar {
   .login_signup ol li {
     font-size: 13px;
   }
-
+  .login_signup .login_btn {
+    width: 300px;
+    padding: 17px 50px;
+  }
   /* new css file here ================================================================= */
 
   /* costume check box start here ====================== */
