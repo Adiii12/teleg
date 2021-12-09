@@ -1,0 +1,114 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #212121;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  font-family: "Roboto", sans-serif;
+}
+
+.send_code {
+  width: 500px;
+  margin: auto;
+}
+.send_code p {
+  color: #909090;
+  text-align: center;
+}
+.send_code .monkey_logo {
+  width: 130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 150px;
+}
+.send_code .number h4 {
+  font-size: 32px;
+  line-height: 29px;
+
+  font-weight: 500;
+  color: #fff;
+}
+.send_code .number .fas {
+  margin-left: 20px;
+  color: #909090;
+  cursor: pointer;
+}
+
+.send_code .number {
+  display: flex;
+  height: 80px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.send_code .form {
+  position: relative;
+  width: 370px;
+  height: 3.4rem;
+
+  margin: auto;
+}
+.send_code .form input {
+  position: absolute;
+  inset: 0;
+  width: 320px;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: inherit;
+  color: white;
+  margin: auto;
+  outline: none;
+  padding: 1.25rem;
+
+  background: none;
+  border: 1px solid #262626;
+}
+.send_code .form input:hover {
+  border: 1px solid #8774e1;
+}
+.send_code .form input:focus {
+  border: 1px solid #8774e1;
+}
+.send_code .form input:focus {
+  border: 1px solid #8774e1;
+}
+.send_code .form input:hover ~ label {
+  color: #8774e1;
+}
+.send_code .form input:focus ~ label {
+  color: #8774e1;
+}
+.send_code .form label {
+  position: absolute;
+  left: 1rem;
+  top: 0.8rem;
+  padding: 0 0.5rem;
+  color: white;
+  background-color: #212121;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.form .form__input:focus ~ .form__label,
+.form
+  .form__input:not(:placeholder-shown).form__input:not(:focus)
+  ~ .form__label {
+  top: -0.5rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
+  color: #8774e1;
+}
+@media only screen and (max-width: 480px) {
+  .send_code {
+    width: 100%;
+  }
+
+  .send_code .form {
+    width: 300px;
+  }
+  .send_code .form input {
+    width: 260px !important;
+  }
+}
