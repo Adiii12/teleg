@@ -681,11 +681,13 @@ body::-webkit-scrollbar {
     font-size: 13px;
   }
   .login_signup .login_btn {
-    width: 315px;
+    width: 325px;
     padding: 17px 50px;
   }
   .login_signup .sign_up_by_number .container .select-box .options-container {
     width: 325px;
+
+    margin-left: -60px;
   }
   /* new css file here ================================================================= */
 
