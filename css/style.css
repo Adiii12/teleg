@@ -637,11 +637,12 @@ body::-webkit-scrollbar {
     width: 100%;
   }
   .login_signup .sign_up_by_number .container .select-box .selected {
-    margin-left: -45px;
+    /* margin-left: -45px; */
+    margin: auto;
     width: 100%;
   }
   .login_signup .sign_up_by_number .container .select-box .options-container {
-    margin-left: -45px;
+    margin: auto;
   }
   .login_signup img {
     width: 220px;
