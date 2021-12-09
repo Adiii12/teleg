@@ -622,7 +622,7 @@ body::-webkit-scrollbar {
   background-size: 100%;
   transition: background 0s;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   .login_signup {
     width: 100%;
     border: 1px solid red;
@@ -641,13 +641,30 @@ body::-webkit-scrollbar {
     border: 1px solid blue;
     width: 100%;
   }
+  .login_signup .sign_up_by_number .next_btn {
+    width: 300px;
+  }
+  .login_signup .sign_up_by_number .qr_btn {
+    width: 300px;
+  }
   .login_signup .sign_up_by_number .container .select-box .selected {
     margin-left: -45px;
-    width: 100%;
+    width: 300px;
+    /* border: 1px solid red; */
+  }
+  .login_signup .sign_up_by_number .container .select-box .selected input {
+    width: 300px;
   }
   .login_signup .sign_up_by_number .container .select-box .options-container {
     margin-left: -45px;
   }
+  .login_signup .sign_up_by_number .checkbox {
+    width: 300px;
+  }
+  .login_signup .sign_up_by_number .phone_number_input {
+    width: 300px;
+  }
+
   .login_signup img {
     width: 220px;
 
@@ -664,18 +681,6 @@ body::-webkit-scrollbar {
   }
   .login_signup ol li {
     font-size: 13px;
-  }
-  .login_signup .login_btn {
-    padding: 17px 50px;
-    font-family: Roboto, -apple-system, "apple color emoji", BlinkMacSystemFont,
-      "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
-      sans-serif;
-    font-weight: 400;
-    background: transparent;
-    cursor: pointer;
-  }
-  .login_signup .login_btn:hover {
-    background-color: rgb(41, 39, 47);
   }
 
   /* new css file here ================================================================= */
