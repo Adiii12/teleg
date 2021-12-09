@@ -626,8 +626,6 @@ body::-webkit-scrollbar {
 @media only screen and (max-width: 480px) {
   .login_signup {
     width: 100%;
-    border: 1px solid red;
-    text-align: center;
   }
   .login_signup .home {
     width: 100%;
