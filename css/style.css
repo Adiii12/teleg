@@ -28,6 +28,7 @@ body::-webkit-scrollbar {
   top: 0px;
   transition: 0.4s;
   width: 500px;
+  border: 1px solid red;
 }
 .login_signup .home.hideHome {
   margin-left: 100%;
@@ -86,7 +87,7 @@ body::-webkit-scrollbar {
 }
 .login_signup .sign_up_by_number {
   width: 500px;
-
+  border: 1px solid red;
   margin-left: -510px;
   color: #fff;
   transition: 0.4s;
@@ -624,25 +625,28 @@ body::-webkit-scrollbar {
 @media only screen and (max-width: 768px) {
   .login_signup {
     width: 100%;
+    border: 1px solid red;
   }
   .login_signup .home {
     width: 100%;
+    border: 1px solid green;
   }
   .login_signup .sign_up_by_number {
     width: 100%;
     position: static;
+    border: 1px solid blue;
   }
 
   .login_signup .home {
+    border: 1px solid blue;
     width: 100%;
   }
   .login_signup .sign_up_by_number .container .select-box .selected {
-    /* margin-left: -45px; */
-    margin: auto;
+    margin-left: -45px;
     width: 100%;
   }
   .login_signup .sign_up_by_number .container .select-box .options-container {
-    margin: auto;
+    margin-left: -45px;
   }
   .login_signup img {
     width: 220px;
@@ -663,6 +667,12 @@ body::-webkit-scrollbar {
   }
   .login_signup .login_btn {
     padding: 17px 50px;
+    font-family: Roboto, -apple-system, "apple color emoji", BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+      sans-serif;
+    font-weight: 400;
+    background: transparent;
+    cursor: pointer;
   }
   .login_signup .login_btn:hover {
     background-color: rgb(41, 39, 47);
