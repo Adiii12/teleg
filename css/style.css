@@ -682,7 +682,6 @@ body::-webkit-scrollbar {
     padding: 17px 50px;
   }
   .login_signup .sign_up_by_number .container .select-box .options-container {
-    border: 1px solid red;
     width: 300px;
   }
   /* new css file here ================================================================= */
