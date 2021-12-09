@@ -637,7 +637,7 @@ body::-webkit-scrollbar {
     width: 100%;
   }
   .login_signup .sign_up_by_number .next_btn {
-    width: 300px;
+    width: 295px;
   }
   .login_signup .sign_up_by_number .qr_btn {
     width: 300px;
@@ -680,6 +680,10 @@ body::-webkit-scrollbar {
   .login_signup .login_btn {
     width: 300px;
     padding: 17px 50px;
+  }
+  .login_signup .sign_up_by_number .container .select-box .options-container {
+    border: 1px solid red;
+    width: 300px;
   }
   /* new css file here ================================================================= */
 
